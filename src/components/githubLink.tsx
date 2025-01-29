@@ -5,13 +5,13 @@ export const GitHubLink = () => {
     <div className="absolute right-0 z-10 m-24">
       <a
         draggable={false}
-        href="https://x.com/"
+        href="https://x.com/Ginkoagent"
         rel="noopener noreferrer"
         target="_blank"
       >
         <div className="p-8 rounded-16 bg-[#1F2328] hover:bg-[#33383E] active:bg-[565A60] flex">
           <img
-            alt="https://x.com/"
+            alt="https://x.com/Ginkoagent"
             height={24}
             width={24}
             src={buildUrl("/x.svg")}
