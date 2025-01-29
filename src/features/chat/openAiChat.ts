@@ -52,9 +52,9 @@ export async function getChatResponseStream(
     async start(controller: ReadableStreamDefaultController) {
       try {
 
-        const OPENROUTER_API_KEY = openRouterKey;
-        const YOUR_SITE_URL = 'https://chat-vrm-window.vercel.app/';
-        const YOUR_SITE_NAME = 'ChatVRM';
+        const OPENROUTER_API_KEY = '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';
+        const YOUR_SITE_URL = 'https://www.ginko-agent.xyz/';
+        const YOUR_SITE_NAME = 'GINKO';
 
         let isStreamed = false;
         const generation = await fetch("https://openrouter.ai/api/v1/chat/completions", {
