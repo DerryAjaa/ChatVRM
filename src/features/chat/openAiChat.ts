@@ -34,7 +34,7 @@ export async function getChatResponse(messages: Message[], apiKey: string) {
 export async function getChatResponseStream(
   messages: Message[],
   apiKey: string,
-  openRouterKey: string
+  openRouterKey: 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
 ) {
   // TODO: remove usages of apiKey in code
   /*
@@ -52,7 +52,7 @@ export async function getChatResponseStream(
     async start(controller: ReadableStreamDefaultController) {
       try {
 
-        const OPENROUTER_API_KEY = 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;
+        const OPENROUTER_API_KEY = openRouterKey;
         const YOUR_SITE_URL = 'https://www.ginko-agent.xyz/';
         const YOUR_SITE_NAME = 'GINKO';
 
