@@ -116,8 +116,8 @@ export const Settings = ({
             <input
               type="text"
               placeholder="OpenRouter API key"
-              value={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}
-              onChange={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}
+              value={openRouterKey}
+              onChange={onChangeOpenRouterKey}
               className="my-4 px-16 py-8 w-full h-40 bg-surface3 hover:bg-surface3-hover rounded-4 text-ellipsis"
             ></input>
             <div>
