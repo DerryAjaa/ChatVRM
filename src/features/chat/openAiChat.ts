@@ -1,7 +1,7 @@
 import { Message } from "../messages/messages";
 import { getWindowAI } from 'window.ai';
 
-export async function getChatResponse(messages: Message[], apiKey: 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) {
+export async function getChatResponse(messages: Message[], apiKey: string) {
   // function currently not used
   throw new Error("Not implemented");
 
