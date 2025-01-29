@@ -16,7 +16,7 @@ import { RestreamTokens } from "./restreamTokens";
 import Cookies from 'js-cookie';
 
 type Props = {
-  openAiKey: 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;
+  openAiKey: string;
   elevenLabsKey: string;
   openRouterKey: string;
   systemPrompt: string;
