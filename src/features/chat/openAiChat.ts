@@ -33,8 +33,8 @@ export async function getChatResponse(messages: Message[], apiKey: string) {
 
 export async function getChatResponseStream(
   messages: Message[],
-  apiKey: string,
-  openRouterKey: string
+  apiKey: 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,
+  openRouterKey: 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
 ) {
   // TODO: remove usages of apiKey in code
   /*
