@@ -29,7 +29,7 @@ export const Introduction = ({ openAiKey, elevenLabsKey, onChangeAiKey, onChange
       <div className="mx-auto my-auto max-w-3xl max-h-full p-24 overflow-auto bg-white rounded-16">
         <div className="my-24">
           <div className="my-8 font-bold typography-20 text-secondary ">
-            About ChatVRM
+            About Ginko
           </div>
           <div>
             You can enjoy conversations with 3D characters using only a web browser using a microphone, text input, and speech synthesis. You can also change the character (VRM), set the personality, and adjust the voice.
@@ -60,8 +60,8 @@ export const Introduction = ({ openAiKey, elevenLabsKey, onChangeAiKey, onChange
             <br />
             Repository:
             &nbsp;<Link
-              url={"https://github.com/zoan37/ChatVRM"}
-              label={"https://github.com/zoan37/ChatVRM"}
+              url={"https://github.com/pixiv/three-vrm"}
+              label={"@pixiv/three-vrm"}
             />
           </div>
         </div>
