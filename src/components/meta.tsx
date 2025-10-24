@@ -1,10 +1,10 @@
 import { buildUrl } from "@/utils/buildUrl";
 import Head from "next/head";
 export const Meta = () => {
-  const title = "Ginko Agent";
+  const title = "Miu";
   const description =
     "You can enjoy conversations with 3D characters using only a web browser using a microphone, text input, and speech synthesis. You can also change the character (VRM), set the personality, and adjust the voice.";
-  const imageUrl = "https://ginkoagent.vercel.app/ogp-en.png";
+  const imageUrl = "https://www.miuagent.website/ogp-en.png";
   return (
     <Head>
       <title>{title}</title>
