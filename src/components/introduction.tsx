@@ -29,7 +29,7 @@ export const Introduction = ({ openAiKey, elevenLabsKey, onChangeAiKey, onChange
       <div className="mx-auto my-auto max-w-3xl max-h-full p-24 overflow-auto bg-white rounded-16">
         <div className="my-24">
           <div className="my-8 font-bold typography-20 text-secondary ">
-            About Ginko
+            About Miu
           </div>
           <div>
             You can enjoy conversations with 3D characters using only a web browser using a microphone, text input, and speech synthesis. You can also change the character (VRM), set the personality, and adjust the voice.
@@ -41,8 +41,8 @@ export const Introduction = ({ openAiKey, elevenLabsKey, onChangeAiKey, onChange
           </div>
           <div>
             <Link
-              url={"https://github.com/pixiv/three-vrm"}
-              label={"@pixiv/three-vrm"}
+              url={"miuagent.website"}
+              label={"Miu"}
             />&nbsp;
             is used for displaying and manipulating 3D models,
             &nbsp;<Link
